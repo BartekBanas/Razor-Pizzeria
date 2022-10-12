@@ -15,15 +15,15 @@ namespace RazorPizzeria.Services
     {
         private readonly ApplicationDbContext _dbContext;
 
-        //public async Task<TEntity> GetAsync(params object[] guids)
-        //{
-        //    if (guids.Length == 0)
-        //        throw new ArgumentException("No key provided");
-
-        //    var entity = await _dbSet.FindAsync(guids);
-
-        //    return entity;
-        //}
+        // public async Task<TEntity> GetAsync(params object[] guids)
+        // {
+        //     if (guids.Length == 0)
+        //         throw new ArgumentException("No key provided");
+        //
+        //     var entity = await _dbSet.FindAsync(guids);
+        //
+        //     return entity;
+        // }
 
         public OrderService(ApplicationDbContext dbContext)
         {
